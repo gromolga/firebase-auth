@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+.h1 {
+    margin: 40px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.btn-custom {
+    margin: 10px auto;
+}
