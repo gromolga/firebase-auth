@@ -17,7 +17,7 @@ export class UserResolver implements Resolve<FirebaseUserModel> {
       .then(res => {
         console.log(res);
         if(res.providerData[0].providerId == 'password'){
-          user.image = 'http://dsi-vd.github.io/patternlab-vd/images/fpo_avatar.png';
+          user.image = 'http://investsofia.com/wp-content/uploads/2016/11/blank-profile-picture-973460_1280.png';
           user.name = res.displayName;
           user.provider = res.providerData[0].providerId;
           return resolve(user);
